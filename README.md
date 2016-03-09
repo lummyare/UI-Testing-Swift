@@ -63,3 +63,22 @@ Helpers for UI Testing in Xcode 7 (Swift)
 	
 </br>
 
+##Swipe
+
+Swipe gestures which can be used with scrollView based elements 
+
+###Up
+       let scrollView = // scrollView based element
+       scrollView.swipeUp()
+       
+###Down
+       let scrollView = // scrollView based element
+       scrollView.swipeDown()
+       
+###Left
+       let scrollView = // scrollView based element
+       scrollView.swipeLeft()
+       
+###Right
+       let scrollView = // scrollView based element
+       scrollView.swipeRight()
